@@ -1,0 +1,102 @@
+.theAboutPage {
+    max-width: 620px;
+    margin: 0 auto;
+    padding: 60px 24px;
+    font-family: Arial, sans-serif;
+}
+
+.about-heading {
+    font-size: 28px;
+    color: #b22222;
+    margin-bottom: 10px;
+}
+
+.about-text {
+    font-size: 15px;
+    color: #444;
+    line-height: 1.8;
+    margin-bottom: 48px;
+}
+
+.section-title {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #999;
+    margin-bottom: 18px;
+    border-bottom: 1px solid #f0dbc8;
+    padding-bottom: 8px;
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 48px;
+}
+
+.contact-list li {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 12px 0;
+    border-bottom: 1px solid #f5ece0;
+    font-size: 15px;
+    color: #333;
+}
+
+.contact-list li:last-child {
+    border-bottom: none;
+}
+
+.contact-icon {
+    width: 36px;
+    height: 36px;
+    background-color: #fff0e6;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    font-size: 16px;
+}
+
+.contact-label {
+    font-size: 12px;
+    color: #999;
+    display: block;
+    margin-bottom: 2px;
+}
+
+.contact-value {
+    color: #222;
+    font-weight: 600;
+}
+
+.social-grid {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.social-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 18px;
+    border: 1.5px solid #e8d0bb;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #333;
+    text-decoration: none;
+    background: #fff;
+    transition: border-color 0.2s, color 0.2s;
+}
+
+.social-btn:hover {
+    border-color: #b22222;
+    color: #b22222;
+}
+
+.social-btn span {
+    font-size: 18px;
+}
